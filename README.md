@@ -36,6 +36,7 @@ However, ESP-32 DAC also isn't perfect.
 To achieve best possible results we first need to calibrate DAC.
 
 This calibration code does the following:
+
 Phase 1a: DAC calibration - measurement
 1. the code cycles through 16 voltage values on the output
 2. you need to measure the output voltage using a multimeter for each of these 16 values and write them down
